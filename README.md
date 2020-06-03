@@ -13,7 +13,16 @@ Deactivate virtual environment:
 deactivate
 ```
 
-Install python packages
+Install python packages:
 ```
 pip install -r requirements.txt
+```
+
+Add APPs to `settings.py`:
+```python
+INSTALLED_APPS = [
+    'rest_framework',
+    'rest_framework.authtoken',
+    'profile_api'
+]
 ```
