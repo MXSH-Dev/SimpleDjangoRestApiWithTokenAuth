@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 
-class HellowSerializer(serializers.Serializer):
+class HelloSerializer(serializers.Serializer):
     '''
     Serializes a name field for testing our API View
     '''
